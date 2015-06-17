@@ -897,3 +897,18 @@ p.copy-right a{
 		width:100%
 	}
 }
+a#forkme_banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 138px;
+  height: 138px;
+  display: block;
+  background: transparent url(http://bloggerism.github.io/tips/images/fork-sprite.png) 0 0 no-repeat;
+  text-indent: -9000px;
+  z-index: 3;
+}
+
+a#forkme_banner:hover {
+  background-position: 0 -138px;
+}
